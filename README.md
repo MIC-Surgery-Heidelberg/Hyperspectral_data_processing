@@ -1,7 +1,21 @@
 # Hyperspectral_data_processing
-Dependencies: <br>
-Installation: <br>
-Description: <br>
+#### Dependencies
+imageio==2.9.0 <br>
+matplotlib==3.4.3 <br>
+numpy==1.19.4 <br>
+pandas==1.0.3 <br>
+Pillow==8.3.1 <br>
+python-pptx==0.6.18 <br>
+scikit-image==0.16.2 <br>
+scipy==1.5.0 <br>
+similaritymeasures==0.4.4 <br>
+tensorflow==2.4.0 <br>
+XlsxWriter==1.2.9 <br>
+
+
+#### Installation
+To install all required dependencies, run `pip install imageio==2.9.0 matplotlib==3.4.3 numpy==1.19.4 pandas==1.0.3 Pillow==8.3.1 python-pptx==0.6.18 scikit-image==0.16.2 scipy==1.5.0 similaritymeasures==0.4.4 tensorflow==2.4.0 XlsxWriter==1.2.9`
+#### Description
 ## 1.1_ImageMuncher
 Description:
 
