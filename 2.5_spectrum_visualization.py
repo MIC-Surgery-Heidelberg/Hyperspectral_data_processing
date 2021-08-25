@@ -13,7 +13,6 @@ import glob
 from skimage.draw import line_aa
 import pandas as pd
 import numpy as np
-from pathlib import Path
 from PIL import Image
 from datetime import datetime
 

@@ -1,12 +1,11 @@
 """
 @author: Alexander Studier-Fischer, Jan Odenthal, Berkin Özdemir, University of Heidelberg
 """
-import tensorflow
-from tensorflow.python.keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
+
+from tensorflow.python.keras.preprocessing.image import img_to_array, load_img
 import glob
 from PIL import Image
 import os
-import numpy as np
 from os.path import dirname, abspath
 from pathlib import Path
 

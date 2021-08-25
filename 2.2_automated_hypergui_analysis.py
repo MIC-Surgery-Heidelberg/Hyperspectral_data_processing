@@ -1,5 +1,5 @@
 """
-@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Ã–zdemir, University of Heidelberg
+@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Özdemir, University of Heidelberg
 """
 # -*- coding: utf-8 -*-
 
@@ -12,12 +12,8 @@ mkTli =True
 
 import numpy as np
 import matplotlib.pyplot as plt
-import skimage.color
 import os
-import logging
 import xlsxwriter
-import math
-import matplotlib.pyplot as plt
 import matplotlib
 import glob
 import imageio
@@ -599,7 +595,6 @@ def calc_data(mask, data):
         stats_data = get_current_original_data(mask, data).flatten()
         data = np.ma.sort(stats_data)
         length = np.ma.count(data)
-        logging.debug("CALCULATING STATS...")
         mean_value = np.round(np.ma.mean(data), 4)
         sd_value = np.round(np.ma.std(data), 4)
         median_value = np.round(data[int(length*1/2)], 4)
@@ -1057,7 +1052,6 @@ def save_absorption_spec_graph(output_path, data, spec_number, is_abspc_with_sca
             
 def save_absorption_spec_diagram(output_path, data, title, scale, masked, fmt=".png", y_lim = None):
     output_path = output_path + title + fmt
-    logging.debug("SAVING ABSORPTION SPEC" + output_path)
     plt.clf()
     axes = plt.subplot(111)
     x_vals = np.arange(500, 1000, 5)
@@ -1107,7 +1101,6 @@ def format_axis2(x, p):
     
 def save_data(path, data, title, stats=[None, None], fmt=".csv", formatting="%.2f", gradient = False):
     output_path = path + title + fmt
-    logging.debug("SAVING DATA TO " + output_path)
     if stats != [None, None]:
         data = np.clip(data, a_min=stats[0], a_max=stats[1])
     if gradient:
@@ -1307,7 +1300,6 @@ def save_histogram_graph(output_path, data, spec_num, is_hist_with_scale, is_his
 
 def save_histogram_diagram(output_path, data, title, scale, masked, fmt=".png"):
     output_path = output_path + title + fmt
-    logging.debug("SAVING HISTOGRAM TO " + output_path)
     plt.clf()
     axes = plt.subplot(111)
     stats = generate_hist_values_for_saving(masked, data)
