@@ -14,6 +14,7 @@ XlsxWriter==1.2.9 <br>
 
 
 #### Installation
+To run these Script, Python 3.7 is required (https://www.python.org/). For Installing dependencies, we recommend using pip (see https://packaging.python.org/tutorials/installing-packages/) <br>
 To install all required dependencies, run `pip install imageio==2.9.0 matplotlib==3.4.3 numpy==1.19.4 pandas==1.0.3 Pillow==8.3.1 python-pptx==0.6.18 scikit-image==0.16.2 scipy==1.5.0 similaritymeasures==0.4.4 tensorflow==2.4.0 XlsxWriter==1.2.9`
 #### Description
 ## 1.1_ImageMuncher
