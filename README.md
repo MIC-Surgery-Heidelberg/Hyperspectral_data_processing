@@ -19,28 +19,28 @@ To install all required dependencies, run `pip install imageio==2.9.0 matplotlib
 #### Description
 Descripe the repository
 ## 1.1_ImageMuncher
-Description: 
+Description: To create a power point file with all the colour-coded index pictures from the TIVITA Hyperspectral System
 
 ## 1.2_XLSXtoPowerPoint
-Description:
+Description: To fill the table of the power point file with precise labels and descriptions
 
 ## 2.1_pptx_data-sort_and_delete
-Description:
+Description: To add all the primary HSI recordings to a data folder for extensive analysis
 
 ## 2.2_automated_hypergui_analysis
-Description:
+Description: To automatically process annotations done with the HyperGUI
 
 ## 2.3_crop_all_channels
-Description:
+Description: To crop all colour-coded index picutres to 640 x 480 pixles
 
 ## 2.4_mean_and_sd_extraction
-Description:
+Description: To extract spectral mean and standard deviation from processed annotations
 
 ## 2.5_spectrum_visualization
-Description:
+Description: To create a powerpoint visualizing the TIVITA recordings and respectively anotated regions
 
 ## 2.6_spectrum_listing
-Description:
+Description: To list all extracted spectra in a table
 
 ## 2.7_integral_and_heterogenity
-Description:
+Description: To calculate integral and heterogeneity of the spectral reflectance curves across different measurements
