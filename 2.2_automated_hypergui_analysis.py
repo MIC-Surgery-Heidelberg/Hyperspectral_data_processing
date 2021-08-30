@@ -1,5 +1,5 @@
 """
-@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Özdemir, University of Heidelberg
+@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Ã–zdemir, Isabella Camplisson University of Heidelberg
 """
 # -*- coding: utf-8 -*-
 
