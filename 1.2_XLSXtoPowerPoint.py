@@ -1,5 +1,5 @@
 """
-@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Özdemir, University of Heidelberg
+@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Özdemir, Isabella Camplisson University of Heidelberg
 """
 from pptx import *
 import pandas as pd
