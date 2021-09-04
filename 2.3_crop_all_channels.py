@@ -1,5 +1,5 @@
 """
-@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Özdemir, University of Heidelberg
+@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Oezdemir, University of Heidelberg
 """
 
 from tensorflow.python.keras.preprocessing.image import img_to_array, load_img
