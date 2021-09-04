@@ -1,5 +1,5 @@
 """
-@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Özdemir, University of Heidelberg
+@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Oezdemir, University of Heidelberg
 """
 ###
 # Copying Image Folders to respective "data" Directory based on Powerpoints for each Situation
