@@ -1,5 +1,5 @@
 """
-@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Özdemir, University of Heidelberg
+@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Oezdemir, University of Heidelberg
 """
 ###
 # Finding spectrum file in picture Folder, converting and appending it to Excel File
