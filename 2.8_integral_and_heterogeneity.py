@@ -1,5 +1,5 @@
 """
-@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Özdemir, University of Heidelberg
+@author: Alexander Studier-Fischer, Jan Odenthal, Berkin Oezdemir, University of Heidelberg
 """
 import os
 import numpy as np
