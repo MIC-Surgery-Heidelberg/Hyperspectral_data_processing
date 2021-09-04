@@ -1,5 +1,5 @@
 """
-@author: Alexander Studier-Fischer, Isabella Camplisson, Berkin Özdemir, University of Heidelberg
+@author: Alexander Studier-Fischer, Isabella Camplisson, Berkin Oezdemir, University of Heidelberg
 """
 from pptx import *
 from INPUTS import *
